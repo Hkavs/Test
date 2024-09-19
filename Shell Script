@@ -1,9 +1,0 @@
-#!/bin/bash
-
-mkdir /home/ec2-user/testing
-
-adduser Harendra
-
-chown Harendra: /home/ec2-user/testing
-
-touch testing{1..5}.txt
